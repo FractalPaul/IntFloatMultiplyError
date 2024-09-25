@@ -20,3 +20,6 @@ The following shows the calculated values on Windows 10:
 
 A very short list of the numbers with the error calculations is below:
 ![Int Float Multiply Error List](https://github.com/user-attachments/assets/f09a2b87-5c58-43a0-ad11-220d766cb419)
+
+A very short list of the numbers with the error calculations:
+![Int Float Multiply Error short List](https://github.com/user-attachments/assets/316f96a6-a3b1-4eeb-a7d3-e03b0756bb26)
