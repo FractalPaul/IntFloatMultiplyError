@@ -17,3 +17,6 @@ On Linux there is quite a list of values that create discrepancies.
 
 The following shows the calculated values on Windows 10:
 ![Int Float Multiply Error](https://github.com/user-attachments/assets/ff024c45-75e9-430f-83a4-ae1c0c9b1c16)
+
+A very short list of the numbers with the error calculations is below:
+![Int Float Multiply Error List](https://github.com/user-attachments/assets/f09a2b87-5c58-43a0-ad11-220d766cb419)
