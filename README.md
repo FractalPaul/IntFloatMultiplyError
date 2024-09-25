@@ -14,3 +14,4 @@ Linux:
 $ dotnet run
 ```
 On Linux there is quite a list of values that create discrepancies.
+![Int Float Multiply Error](https://github.com/user-attachments/assets/ff024c45-75e9-430f-83a4-ae1c0c9b1c16)
