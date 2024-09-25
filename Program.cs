@@ -14,7 +14,7 @@
         {
             Console.WriteLine("Integer multiplied to Float error calculation...");
 
-            int maxValue = 5000;
+            int maxValue = 10000;
 
             if (args.Length > 0)
             {
