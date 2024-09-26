@@ -11,12 +11,14 @@
         public static int Main(string[] args)
         {
             Console.WriteLine("Integer multiplied to Float error calculation...");
-            Dictionary<int, float> dictOddBalls = new Dictionary<int, float>();
-            dictOddBalls.Add(2399, 6995);
-            dictOddBalls.Add(3055, 6111);
-            dictOddBalls.Add(2401, 6997);
-            dictOddBalls.Add(1681, 9987);
-            dictOddBalls.Add(1682, 9987);
+            List<KeyValuePair<int, float>> dictOddBalls = new List<KeyValuePair<int, float>>();
+
+            dictOddBalls.Add(new KeyValuePair<int, float>(1681, 9987));
+            dictOddBalls.Add(new KeyValuePair<int, float>(2399, 6995));
+            dictOddBalls.Add(new KeyValuePair<int, float>(2401, 6997));
+            dictOddBalls.Add(new KeyValuePair<int, float>(2797, 5999));
+            dictOddBalls.Add(new KeyValuePair<int, float>(3055, 6995));
+            dictOddBalls.Add(new KeyValuePair<int, float>(3055, 6111));
 
             CalculateOddBalls(dictOddBalls);
 
@@ -26,13 +28,13 @@
                 int.TryParse(args[0], out maxValue);
             }
 
-            //CalculateRangeMultiplication(maxValue);
+            CalculateRangeMultiplication(maxValue);
 
             return 0;
         }
 
         // Calculates a given list of known numbers that cause the error calculation.
-        private static void CalculateOddBalls(Dictionary<int, float> dictOddBalls)
+        private static void CalculateOddBalls(List<KeyValuePair<int, float>> dictOddBalls)
         {
             List<string> lines = new List<string>();
             foreach (KeyValuePair<int, float> eachKVP in dictOddBalls)
