@@ -16,6 +16,7 @@ $ dotnet run
 On Linux there is quite a list of values that create discrepancies.
 
 Odd ball calulations...
+Notice that the 4th and 5th columns do not match.
 ![IntFloat Odd Ball C#](https://github.com/user-attachments/assets/d42202e7-e2ac-4555-83d1-d73005231e0c)
 
 The following shows the calculated values on Windows 10:
