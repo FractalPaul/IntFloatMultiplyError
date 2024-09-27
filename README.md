@@ -9,15 +9,34 @@ Such as:
 
 There are numerous other values that are produced.  Interestingly there are only odd numbers for both that produce the calculation error.
 
-Linux:
+## Linux:
 ```terminal
+$ dotnet build
 $ dotnet run
 ```
 On Linux there is quite a list of values that create discrepancies.
 
+## Two number calculations..
+To perform the combination of multiplications on just two numbers provide the two numbers as arguments:
+```terminal
+$ dotnet run 3055 6111
+```
+## Range calculations...
+To perform the range calculation just put a Max Value as a single argument.
+```terminal
+$ dotnet run 7000
+```
+This will calculate the combinations of multiplications for both numbers ranging from 1 to Max Value
+
+## Odd Ball Calculations...
+To perform the Odd ball calculation execute without any parameters.
+```terminal
+$ dotnet run
+```
+The Odd Ball calculation is a predetermined set of numbers that cause an error.  These are set to compare to other platforms and languages such as C or Rust.
 Odd ball calulations...
 Notice that the 4th and 5th columns do not match.
-![IntFloat Odd Ball C#](https://github.com/user-attachments/assets/d42202e7-e2ac-4555-83d1-d73005231e0c)
+![IntFloat Odd Ball C#](https://github.com/user-attachments/assets/8e07f3b0-b7fb-4d62-88cf-50c52e15c03b)
 
 The following shows the calculated values on Windows 10:
 ![Int Float Multiply Error](https://github.com/user-attachments/assets/ff024c45-75e9-430f-83a4-ae1c0c9b1c16)
